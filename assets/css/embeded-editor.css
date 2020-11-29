@@ -1,0 +1,51 @@
+.woocommerce td.product-name dl.variation dt.variation-dh-edit-link {
+  display: none;
+}
+#order_review .product-name img {
+  width: 32px;
+  margin-right: 10px;
+}
+.woocommerce-page table.cart .product-thumbnail img,
+#order_review .product-name img {
+  border: 1px solid rgba(0,0,0,.1);
+}
+
+/*
+ * Product Page only CSS
+ */
+
+.woocommerce-variation-add-to-cart {
+  display: none;
+}
+.woocommerce-page div.product div.images .project-image {
+  height: auto;
+  max-height: 380px;
+  width: auto;
+}
+.dh-editor-btn-wrap {
+  display: none;
+  margin: 1.5em 0;
+}
+.mfp-container.mfp-iframe-holder .mfp-content {
+  max-width: none;
+}
+.mfp-content .mfp-iframe-scaler {
+  width: 97%;
+  height: 0;
+  padding-top: 47%;
+}
+.mfp-wrap .mfp-container .mfp-close {
+  width: 40px;
+  background: #3c3c3c;
+  border-radius: 100%;
+  border: 3px solid #fff;
+  height: 40px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 0;
+  opacity: 1;
+  top: -20px;
+}
+.mfp-wrap .mfp-container .mfp-close:hover {
+  background: #3c3c3c !important;
+}
